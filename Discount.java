@@ -10,8 +10,7 @@ public class Discount extends Product {
 	}
 	
 	void finalDiscount() {
-		int newPrice=(int)(getPrice()-(getPrice()*discount));
-		setPrice(newPrice);
+		setPrice((int)(getPrice()-(getPrice()*discount)));
 		
 		
 	}
